@@ -1,0 +1,3 @@
+# JetpackDemo
+jetpack功能总结
+Jetpack是Google统一开发者编写架构逻辑推出的一些库，意在帮助Android开发者降低开发难度，提高APP性能及稳定性。这里对Jetpack相关功能做了一些demo,希望能给大家提供一些了解渠道。
