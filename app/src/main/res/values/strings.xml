@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">JetPackDemo</string>
+    <string-array name="jetpack">
+        <item>Binding</item>
+        <item>Lifecycles</item>
+        <item>LiveData</item>
+        <item>Navigaton</item>
+        <item>Paging</item>
+        <item>Room</item>
+        <item>ViewModel</item>
+        <item>WorkManager</item>
+    </string-array>
+</resources>
