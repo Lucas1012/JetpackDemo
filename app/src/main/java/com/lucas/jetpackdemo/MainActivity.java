@@ -8,6 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 import com.lucas.jetpackdemo.activity.LifecycleActivity;
 import com.lucas.jetpackdemo.activity.LiveDataActivity;
+import com.lucas.jetpackdemo.activity.ViewModelActivity;
 import com.lucas.jetpackdemo.adapter.JetpackAdapter;
 import com.lucas.jetpackdemo.databinding.ActivityMainBinding;
 
@@ -54,6 +55,8 @@ public class MainActivity extends AppCompatActivity{
             case 5:
                 break;
             case 6:
+                Intent intent6 = new Intent(MainActivity.this, ViewModelActivity.class);
+                startActivity(intent6);
                 break;
             case 7:
                 break;

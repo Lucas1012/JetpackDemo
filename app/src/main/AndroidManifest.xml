@@ -22,6 +22,7 @@
 
         <activity android:name=".activity.LiveDataActivity"/>
         <activity android:name=".activity.LifecycleActivity"/>
+        <activity android:name=".activity.ViewModelActivity"/>
     </application>
 
 </manifest>
