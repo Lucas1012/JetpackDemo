@@ -27,6 +27,7 @@
         <activity android:name=".activity.ViewModelActivity"/>
         <activity android:name=".activity.RoomActivity"/>
         <activity android:name=".workmanager.WorkManagerActivity"/>
+        <activity android:name=".paging.PagingActivity"/>
     </application>
 
 </manifest>

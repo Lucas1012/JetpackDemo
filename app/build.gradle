@@ -63,6 +63,12 @@ dependencies {
     androidTestImplementation  "android.arch.persistence.room:testing:$room_version"
     implementation 'android.arch.work:work-runtime:1.0.1'
 
+
+    implementation "android.arch.paging:runtime:$room_version"
+    // alternatively - without Android dependencies for testing
+   // testImplementation "android.arch.paging:common:$paging_version"
+    // optional - RxJava support, currently in release candidate
+    implementation "android.arch.paging:rxjava2:1.0.0-rc1"
 // For Kotlin use kapt instead of annotationProcessor (注意这个注释)
    // kapt "androidx.room:room-compiler:$room_version"
 }

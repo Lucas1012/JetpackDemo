@@ -68,7 +68,8 @@ public class WorkManagerActivity extends AppCompatActivity{
     //    WorkManager.getInstance().beginWith(Arrays.asList(request1,request2)).then(request3).enqueue();
         //取消任务通过id
      //   WorkManager.getInstance().cancelWorkById(request1.getId());
-        WorkManager.getInstance().beginUniqueWork("aaa",ExistingWorkPolicy.APPEND,request1);
+    //    WorkManager.getInstance().beginUniqueWork("aaa",ExistingWorkPolicy.APPEND,request1);
+        WorkManager.getInstance().beginWith(request1).then(request1).then(request1).enqueue();
     }
 
     /**

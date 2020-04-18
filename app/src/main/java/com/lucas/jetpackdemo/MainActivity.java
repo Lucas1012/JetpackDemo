@@ -12,6 +12,7 @@ import com.lucas.jetpackdemo.activity.RoomActivity;
 import com.lucas.jetpackdemo.activity.ViewModelActivity;
 import com.lucas.jetpackdemo.adapter.JetpackAdapter;
 import com.lucas.jetpackdemo.databinding.ActivityMainBinding;
+import com.lucas.jetpackdemo.paging.PagingActivity;
 import com.lucas.jetpackdemo.workmanager.WorkManagerActivity;
 
 import java.util.Arrays;
@@ -53,6 +54,8 @@ public class MainActivity extends AppCompatActivity{
             case 3:
                 break;
             case 4:
+                Intent intent4 = new Intent(MainActivity.this, PagingActivity.class);
+                startActivity(intent4);
                 break;
             case 5:
                 Intent intent5 = new Intent(MainActivity.this, RoomActivity.class);

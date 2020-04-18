@@ -1,6 +1,7 @@
 package com.lucas.jetpackdemo.databases;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.Ignore;
@@ -43,5 +44,27 @@ public class User{
         this.mUserId = mUserId;
         this.mUserName = mUserName;
         this.mData = mData;
+    }
+
+    @Override
+    public int hashCode(){
+
+        return super.hashCode();
+    }
+
+    @Override
+    public boolean equals(@Nullable Object obj){
+
+        return super.equals(obj);
+    }
+
+    @Override
+    public String toString(){
+
+        return "User{" +
+               "mUserId='" + mUserId + '\'' +
+               ", mUserName='" + mUserName + '\'' +
+               ", mData='" + mData + '\'' +
+               '}';
     }
 }
